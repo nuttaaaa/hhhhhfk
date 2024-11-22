@@ -8,11 +8,11 @@ const path = require("path");
 
 function initializePlayer(client) {
     const nodes = config.nodes.map(node => ({
-        name: node.name,
-        host: node.host,
-        port: node.port,
-        password: node.password,
-        secure: node.secure,
+        name: "MYHM.Space",
+        host: "ll3.myhm.space",
+        port: 443,
+        password: "d.gg/therepublic",
+        secure: true,
         reconnectTimeout: 5000,
         reconnectTries: Infinity
     }));
