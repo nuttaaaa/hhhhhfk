@@ -8,10 +8,10 @@ const path = require("path");
 
 function initializePlayer(client) {
     const nodes = config.nodes.map(node => ({
-        name: "MYHM.Space",
-        host: "ll3.myhm.space",
+        name: "Catfein DE",
+        host: "lavalink.alfari.id",
         port: 443,
-        password: "d.gg/therepublic",
+        password: "catfein",
         secure: true,
         reconnectTimeout: 5000,
         reconnectTries: Infinity
