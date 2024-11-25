@@ -8,11 +8,11 @@ const path = require("path");
 
 function initializePlayer(client) {
     const nodes = config.nodes.map(node => ({
-        name: "lava-v4.ajieblogs.eu.org",
-        host: "lava-v4.ajieblogs.eu.org",
-        port: 443,
-        password: "https://dsc.gg/ajidevserver",
-        secure: true,
+        name: "LewdHuTao - Lavalink",
+        host: "node.lewdhutao.my.eu.org",
+        port: 80,
+        password: "node.lewdhutao.my.eu.org",
+        secure: false,
         reconnectTimeout: 5000,
         reconnectTries: Infinity
     }));
