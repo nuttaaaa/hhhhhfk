@@ -38,13 +38,13 @@ module.exports = {
 
   nodes: [
     {
-        name: "Catfein DE",
-        host: "lavalink.alfari.id",
-        port: 443,
-        password: "catfein",
+        name: "INZEWORLD.COM (DE)",
+        host: "lava.inzeworld.com",
+        port: 3128,
+        password: "saher.inzeworld.com",
         reconnectTimeout: 5000,
         reconnectTries: Infinity,
-        secure: true
+        secure: false
     },
  ]
 }
