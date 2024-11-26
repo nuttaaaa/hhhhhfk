@@ -8,11 +8,11 @@ const path = require("path");
 
 function initializePlayer(client) {
     const nodes = config.nodes.map(node => ({
-        name: "Catfein DE",
-        host: "lavalink.alfari.id",
-        port: 443,
-        password: "catfein",
-        secure: true,
+        name: "INZEWORLD.COM (DE)",
+        host: "lava.inzeworld.com",
+        port: 3128,
+        password: "saher.inzeworld.com",
+        secure: false,
         reconnectTimeout: 5000,
         reconnectTries: Infinity
     }));
